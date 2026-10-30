@@ -20,7 +20,7 @@ Production URL: https://akshaymittur.github.io/
 
 ## Connect Google Analytics 4
 
-The integration is implemented but **disabled until a real measurement ID is supplied**. No fake ID or third-party account is used.
+The integration is configured with Akshay’s GA4 measurement ID **G-GQCD5XF19V**. Collection starts only after visitor consent. Account ownership and incoming events must be verified in the Google Analytics property.
 
 1. Sign in at https://analytics.google.com/ with the Google account that should own the data. Create an account if needed, then a GA4 property. Choose your reporting timezone (e.g. America/Los_Angeles).
 2. Create a **Web** data stream for `https://akshaymittur.github.io`, name it "Akshay Mittur Portfolio", and copy its **Measurement ID**, which starts with `G-`.
