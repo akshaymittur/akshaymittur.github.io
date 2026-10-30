@@ -34,6 +34,7 @@
       page_title: document.title
     });
     const tag = document.createElement('script');
+    tag.id = 'google-analytics-tag';
     tag.async = true;
     tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
     document.head.appendChild(tag);
